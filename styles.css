@@ -184,6 +184,7 @@ margin-top: -90px;
 .menyediakan{
   margin-top: 50px;
   display: grid;
+  grid-gap:15%;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
@@ -528,6 +529,12 @@ footer .container a:hover {
   .feature img{
     width: 40%;
   }
+  .menyediakan{
+  grid-gap:0;
+}
+  .project{
+  grid-gap:0;
+}
   .mengerjakan-header p{
     width: 100%;
     margin-bottom: 20px;
