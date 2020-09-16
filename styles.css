@@ -237,7 +237,6 @@ margin-top: -90px;
 .project{
   margin-top: 50px;
   display: grid;
-  grid-gap: 15%;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
