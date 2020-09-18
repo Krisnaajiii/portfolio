@@ -791,7 +791,10 @@ footer .container a:hover {
     width: 16%;
   }
   .testi-text p{
-    font-size: 15px;
+    font-size: 14px;
+  }
+  .userku-text p{
+   font-size: 13px;
   }
   .social .container{
     display: grid;
