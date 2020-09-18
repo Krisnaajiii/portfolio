@@ -379,6 +379,110 @@ margin-top: -90px;
   border-top-left-radius: 16px;
 }
 
+/* =================== testi =================== */
+.testi{
+  max-width: 1100px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top:100px; 
+  margin-bottom:100px; 
+}
+
+.testi-tittle{
+  margin-bottom: 60px;
+  margin-top: 100px;
+}
+.testi-tittle p{
+ width: 60%;
+}
+.testi-tittle h1{
+  color: red;
+  margin-bottom: 15px;
+}
+.testi-tittle img{
+  float: right;
+  margin-top: -90px;
+}
+.testi-tittle .more{
+  margin-right: 20px;
+  float: right;
+  color: red;
+  margin-top:20px;
+}
+
+.testi-inside{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+}
+.testimoni{
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 80px 80px 90px;
+  grid-template-areas: "stars" "text" "user";
+  margin:20px;
+  border-radius: 18px;
+  border: 2px solid black;
+  background: white;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.5 ease-in-out;
+}
+.testimoni:hover{
+  box-shadow: 0px 5px 30px rgba(255, 124, 37, 0.8);
+}
+.testi-stars{
+  display: flex;
+  grid-area: stars;
+  background: #F95A2C;
+  padding: 20px;
+}
+.testi-stars img{
+  width: 14%;
+}
+.testi-stars h2{
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #fff;
+}
+.testi-text{
+  grid-area: text;
+  background: #F95A2C;
+  padding: 0 20px 0 20px;
+  color: #fff;
+  line-height: 22px;
+}
+.testi-text p{
+  font-size: 16px;
+}
+.testi-text img{
+  width: 25%;
+  float: right;
+  margin-top:-10px;
+}
+.testi-user{
+  grid-area: user;
+  display: grid;
+  grid-template-columns: 1fr 1fr;;
+  padding: 10px;
+}
+.userku{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userku-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.userku-text h3{
+  margin-bottom: 5px;
+}
+.testi-user img{
+  width: 40%;
+}
+
+
 /* =================== langganan =================== */
 
 .langganan{
@@ -679,6 +783,15 @@ footer .container a:hover {
     width: 100%;
     margin-bottom: 20px;
     margin-top: 20px;
+  }
+  .testimoni{
+    margin:60px 0px 30px 0px;
+  }
+  .testi-stars img{
+    width: 16%;
+  }
+  .testi-text p{
+    font-size: 15px;
   }
   .social .container{
     display: grid;
